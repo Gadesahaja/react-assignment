@@ -1,0 +1,51 @@
+/* src/App.css */
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color:#727171;
+}
+
+.user-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-profile {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  background-color: #f8f8f8;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.user-profile h2 {
+  font-size: 1.2em;
+}
+
+.user-profile p {
+  margin: 5px 0;
+}
+/* .c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.loading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
